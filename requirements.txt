@@ -1,0 +1,43 @@
+# QLoRA Fine-Tuning Dependencies for Qwen 3.5 4B
+# Python 3.13.7 Global Environment - RTX 4090
+
+# Core ML Framework
+torch>=2.2.0
+torchvision
+torchaudio
+
+# Unsloth - Fast LLM Fine-tuning
+unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+
+# Hugging Face Stack
+transformers>=4.45.0
+datasets>=2.18.0
+accelerate>=0.27.0
+peft>=0.10.0
+trl>=0.8.0
+
+# Quantization
+bitsandbytes>=0.43.0
+
+# Evaluation Benchmarks
+lm-eval>=0.4.0
+
+# Utilities
+numpy>=1.26.0
+pandas>=2.2.0
+tqdm>=4.66.0
+pyyaml>=6.0.0
+jsonlines>=4.0.0
+
+# Logging
+wandb>=0.16.0
+tensorboard>=2.16.0
+
+# Answer Extraction
+sympy>=1.12
+latex2sympy2>=1.9.0
+
+# Misc
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+safetensors>=0.4.0
