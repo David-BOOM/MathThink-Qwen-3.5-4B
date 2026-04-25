@@ -5,7 +5,7 @@ Reproducible pipeline for:
 1. dataset preprocessing
 2. QLoRA training with `scripts\train_ram.py`
 3. merging adapter and converting to GGUF format
-4. benchmark evaluation via `evaluation\run_all_evals_lmstudio.py`
+4. benchmark evaluation via `evaluation\run_all_evals_lmstudio.py` (LM Studio is required for these evaluation programs)
 
 This README provides a thorough step-by-step instruction to reproduce the fine-tuning and evaluation workflow. All inference jobs are configured to run with LM Studio as the backend.
 
