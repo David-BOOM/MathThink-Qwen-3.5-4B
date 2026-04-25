@@ -1,5 +1,7 @@
 # Qwen 3.5 4B Fine-Tuning reproduction process
 
+This repository stores programs required for reproducing [DavidOKB/MathThink-Qwen-3.5-4B](https://doi.org/10.57967/hf/8542).
+
 Reproducible pipeline for:
 
 1. dataset preprocessing
